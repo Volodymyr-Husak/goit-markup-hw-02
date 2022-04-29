@@ -18,11 +18,16 @@
     --link-focus-hover: #2196F3;
     /* title */
     --color-title: #212121;
-    /* button */
-    --background-color-button: #2196F3;
     /* hero */
     --background-color-hero: #2F303A;
     --hero-btn: #FFFFFF;
+    --background-color-button: #2196F3;
+    /* portfolio */
+    --portfolio-btn: #212121;
+    --background-color-portfolio-btn: #F5F4FA;
+    --background-color-portfolio-btn-focus: #2196F3;
+    --portfolio-btn-hover: #FFFFFF;
+
 }
 
 /* ================== */
@@ -226,4 +231,28 @@ body {
     line-height: 1.19;
 
     text-align: center;
+}
+
+/* =============================================== */
+/*                      PORTFOLIO */
+/* =============================================== */
+/* button */
+.portfolio-btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+
+    text-align: center;
+
+    color: var(--portfolio-btn);
+    background-color: var(--background-color-portfolio-btn);
+
+}
+
+.portfolio-btn:focus,
+.portfolio-btn:hover {
+    background-color: var(--background-color-portfolio-btn-focus);
+    color: var(--portfolio-btn-hover);
+
+
 }
