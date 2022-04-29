@@ -1,8 +1,185 @@
-body {
-    font-family: Roboto, sans-serif;
+/* ======================= */
+/*        VARIABLES*/
+/* ======================= */
+:root {
+    /* main */
+    --main-color: #757575;
+    --background-color-main: #ffffff;
+    /* footer */
+    --background-color-footer: #2F303A;
+    --footer-address: #FFFFFF;
+    /* logo */
+    --logo-color-first: #2196F3;
+    --logo-color-second-header: #000000;
+    --logo-color-second-footer: #ffffff;
+    /* link */
+    --link-contact-header: #757575;
+    --link-contact-footer: rgba(255, 255, 255, 0.6);
+    --link-focus-hover: #2196F3;
+    /* title */
+    --color-title: #212121;
+    /* button */
+    --background-color-button: #2196F3;
+    /* hero */
+    --background-color-hero: #2F303A;
+    --hero-btn: #FFFFFF;
 }
 
-/* Лого */
+/* ================== */
+/*        BODY */
+/* ================== */
+body {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    /* or 171% */
+
+    letter-spacing: 0.03em;
+
+    color: var(--main-color);
+    background-color: var(--background-color-main);
+
+}
+
+/* list */
+.list {
+    list-style: none;
+}
+
+/* link */
+.link {
+    text-decoration: none;
+}
+
+
+
+/* ================== */
+/*        HEADER */
+/* ================== */
+
+
+/* logo */
 .logo {
     font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+
+    text-decoration: none;
+
+    color: var(--logo-color-first);
 }
+
+.logo-studio {
+    color: var(--logo-color-second-header);
+}
+
+/* header-navigation */
+
+.link-navigation {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
+    color: #212121;
+}
+
+.link-contact-header {
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
+    color: var(--link-contact-header);
+}
+
+.link-contact-header:focus,
+.link-contact-header:hover,
+.link-navigation:focus,
+.link-navigation:hover {
+    color: var(--link-focus-hover);
+}
+
+/* ================== */
+/*       FOOTER */
+/* ================== */
+
+.footer {
+    background-color: var(--background-color-footer);
+}
+
+/* Logo */
+.footer-logo-studio {
+    color: var(--logo-color-second-footer);
+}
+
+/* address */
+.footer-address {
+    font-style: normal;
+    color: var(--footer-address);
+}
+
+.link-contact-footer {
+    color: var(--link-contact-footer);
+}
+
+/* =============================================== */
+/*                      MAIN */
+/* =============================================== */
+/* ================== */
+/*       HERO */
+/* ================== */
+.hero {
+    background-color: var(--background-color-hero);
+}
+
+/* title */
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+/* button */
+.hero-btn {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+
+    color: var(--hero-btn);
+
+    background-color: var(--background-color-button);
+}
+
+/* ================== */
+/*     BENEFITS */
+/* ================== */
+/* title */
+.title-benefits {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: var(--color-title);
+}
+
+/* .benefits .title {
+    color: var(--color-title);
+} */
