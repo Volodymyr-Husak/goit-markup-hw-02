@@ -30,17 +30,15 @@
 /* ================== */
 body {
     font-family: Roboto, sans-serif;
-    font-style: normal;
-    font-weight: 400;
+    /* font-style: normal;
+    font-weight: 400; */
     font-size: 14px;
     line-height: 1.71;
-    /* or 171% */
 
     letter-spacing: 0.03em;
 
     color: var(--main-color);
     background-color: var(--background-color-main);
-
 }
 
 /* list */
@@ -51,6 +49,11 @@ body {
 /* link */
 .link {
     text-decoration: none;
+}
+
+/* button */
+.btn {
+    cursor: pointer;
 }
 
 
@@ -166,6 +169,8 @@ body {
     background-color: var(--background-color-button);
 }
 
+
+
 /* ================== */
 /*     BENEFITS */
 /* ================== */
@@ -181,3 +186,44 @@ body {
 /* .benefits .title {
     color: var(--color-title);
 } */
+/* ================== */
+/*    WHAT WE DO */
+/* ================== */
+.title-work {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+
+    color: var(--color-title);
+}
+
+/* ================== */
+/*      OUR TEAM */
+/* ================== */
+/* title */
+.title-team {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+
+    color: var(--color-title);
+}
+
+.team .title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+
+    text-align: center;
+
+    color: var(--color-title);
+}
+
+.text {
+    font-size: 16px;
+    line-height: 1.19;
+
+    text-align: center;
+}
