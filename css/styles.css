@@ -63,6 +63,11 @@ body {
     cursor: pointer;
 }
 
+/* Приховані заголовки */
+.hidden {
+    display: none;
+}
+
 
 
 /* ================== */
@@ -190,6 +195,7 @@ body {
 
     color: var(--color-title);
 }
+
 
 /* .benefits .title {
     color: var(--color-title);
