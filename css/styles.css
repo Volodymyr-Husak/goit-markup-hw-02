@@ -43,6 +43,7 @@ body {
 
 /* button */
 .btn {
+    font-family: inherit;
     cursor: pointer;
 }
 
