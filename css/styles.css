@@ -10,6 +10,7 @@
     --title-color: #212121;
     --background-black-color: #2F303A;
     --link-contact-footer: rgba(255, 255, 255, 0.6);
+    --bg-cl-hero-btn-hover: #188CE8;
     /* portfolio */
     --background-color-portfolio-btn: #F5F4FA;
 }
@@ -83,6 +84,16 @@ body {
 
 }
 
+/* .current:current {
+    color: yellow;
+} */
+/* :current(.current) {
+    color: var(--blue-color);
+} */
+
+/* .link-navigation:current {
+    color: var(--blue-color);
+} */
 .link-contact-header {
 
     font-weight: 500;
@@ -162,7 +173,10 @@ body {
     background-color: var(--blue-color);
 }
 
-
+.hero-btn:focus,
+.hero-btn:hover {
+    background-color: var(--bg-cl-hero-btn-hover);
+}
 
 /* ================== */
 /*     BENEFITS */
