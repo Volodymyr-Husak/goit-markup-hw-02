@@ -84,16 +84,6 @@ body {
 
 }
 
-/* .current:current {
-    color: yellow;
-} */
-/* :current(.current) {
-    color: var(--blue-color);
-} */
-
-/* .link-navigation:current {
-    color: var(--blue-color);
-} */
 .link-contact-header {
 
     font-weight: 500;
@@ -108,6 +98,10 @@ body {
 .link-contact-header:hover,
 .link-navigation:focus,
 .link-navigation:hover {
+    color: var(--blue-color);
+}
+
+.current {
     color: var(--blue-color);
 }
 
@@ -190,10 +184,6 @@ body {
     color: var(--title-color);
 }
 
-
-/* .benefits .title {
-    color: var(--title-color);
-} */
 /* ================== */
 /*    WHAT WE DO */
 /* ================== */
